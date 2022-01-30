@@ -8,11 +8,11 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'log_manager'                 => 'Pengelola Log',
+    'log_manager'                 => 'Log',
     'log_manager_description'     => 'Lihat, unduh, dan hapus log.',
     'actions'                     => 'Aksi',
     'delete_confirm'              => 'Anda yakin ingin menghapus file log ini?',
-    'back_to_all_logs'            => 'Kembali ke semua log',
+    'back_to_all_logs'            => 'Kembali',
     'create_a_new_log'            => 'Buat log baru',
     'date'                        => 'Tanggal',
     'delete'                      => 'Hapus',

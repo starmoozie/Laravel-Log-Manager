@@ -11,7 +11,7 @@
 @section('header')
     <section class="container-fluid">
       <h2>
-        {{ trans('starmoozie::logmanager.log_manager') }}<small>{{ trans('starmoozie::logmanager.file_name') }}: <i>{{ $file_name }}</i></small>
+        {{ ucwords(str_replace('-', ' ', \Request::segment(2))) }}<small>{{ trans('starmoozie::logmanager.file_name') }}: <i>{{ $file_name }}</i></small>
         <small><a href="{{ starmoozie_url('log') }}" class="hidden-print font-sm"><i class="la la-angle-double-left"></i> {{ trans('starmoozie::logmanager.back_to_all_logs') }}</a></small>
       </h2>
     </section>

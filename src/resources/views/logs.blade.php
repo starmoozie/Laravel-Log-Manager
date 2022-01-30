@@ -11,7 +11,7 @@
 @section('header')
     <section class="container-fluid">
       <h2>
-        {{ trans('starmoozie::logmanager.log_manager') }}<small>{{ trans('starmoozie::logmanager.log_manager_description') }}</small>
+        {{ ucwords(str_replace('-', ' ', \Request::segment(2))) }}<small>{{ trans('starmoozie::logmanager.log_manager_description') }}</small>
       </h2>
     </section>
 @endsection
